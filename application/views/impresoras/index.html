@@ -1,0 +1,21 @@
+$def with(impresoras)
+<h3>
+    <a href="/impresoras">impresoras</a>
+</h3>
+<table id="datos_tabla" class="table table-hover" cellspacing="0" width="100%">
+    <thead>
+        <th>impresoras</th>
+        <th>Edit</th>
+        <th>Delete</th>
+    </thead>
+    <tbody>
+        $for item in impresoras:
+        <tr>
+            <td><a href='/impresoras/view/$item.id_impresora'>$item.modelo</a></td>
+            <td><a href='/impresoras/edit/$item.id_impresora'><span class="glyphicon glyphicon-pencil"></span></a></td>
+            <td><a href='/impresoras/delete/$item.id_impresora'><span class="glyphicon glyphicon-trash"></span></a></td>
+        </tr>
+    </tbody>
+</table>
+<br>
+<br>

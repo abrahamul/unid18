@@ -1,0 +1,5 @@
+'/impresoras', 'application.controllers.impresoras.index.Index',
+'/impresoras/view/(.+)', 'application.controllers.impresoras.view.View',
+'/impresoras/edit/(.+)', 'application.controllers.impresoras.edit.Edit',
+'/impresoras/delete/(.+)', 'application.controllers.impresoras.delete.Delete',
+'/impresoras/insert', 'application.controllers.impresoras.insert.Insert',
