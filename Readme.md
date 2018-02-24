@@ -75,3 +75,5 @@ this template have the next functions
  - *master*
  - *printer*
  - *view*
+"# finalexamen" 
+"# examen" 
